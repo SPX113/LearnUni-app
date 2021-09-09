@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/map/map",
+    "pages/person/person",
+    "pages/more/more",
+    "pages/personalInfo/personalInfo"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#8F8F94",
+    "selectedColor": "#2329D6",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "static/icon/index.png",
+        "selectedIconPath": "static/icon/index_active.png"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "text": "地图",
+        "iconPath": "static/icon/gps.png",
+        "selectedIconPath": "static/icon/gps_active.png"
+      },
+      {
+        "pagePath": "pages/more/more",
+        "text": "更多",
+        "iconPath": "static/icon/more.png",
+        "selectedIconPath": "static/icon/more_active.png"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "text": "个人中心",
+        "iconPath": "static/icon/personal.png",
+        "selectedIconPath": "static/icon/personal_active.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "为了您获得更良好的体验，本次操作需要获取您的位置"
+    }
+  },
+  "usingComponents": {}
+}

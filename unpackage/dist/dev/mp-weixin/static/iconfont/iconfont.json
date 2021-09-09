@@ -1,0 +1,44 @@
+{
+  "id": "2795163",
+  "name": "MAP",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "8288983",
+      "name": "功能",
+      "font_class": "gongneng",
+      "unicode": "e867",
+      "unicode_decimal": 59495
+    },
+    {
+      "icon_id": "5388070",
+      "name": "个人信息_o",
+      "font_class": "gerenxinxi_o",
+      "unicode": "ebcc",
+      "unicode_decimal": 60364
+    },
+    {
+      "icon_id": "21523599",
+      "name": "退出",
+      "font_class": "tuichu",
+      "unicode": "e681",
+      "unicode_decimal": 59009
+    },
+    {
+      "icon_id": "8575376",
+      "name": "进入0",
+      "font_class": "jinru",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "666885",
+      "name": "设置",
+      "font_class": "shezhi",
+      "unicode": "e68f",
+      "unicode_decimal": 59023
+    }
+  ]
+}

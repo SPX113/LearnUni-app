@@ -1,0 +1,1 @@
+<view><map name="china" longitude="{{longitude}}" latitude="{{latitude}}" markers="{{markers}}"></map></view>

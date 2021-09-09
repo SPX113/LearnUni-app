@@ -1,0 +1,72 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "主页",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/map/map",
+			"style": {
+				"navigationBarTitleText": "地图"
+			}
+		},
+		{
+			"path": "pages/person/person",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path":"pages/more/more",
+			"style": {
+				"navigationBarTitleText": "更多"
+			}
+		},
+		{
+			"path":"pages/personalInfo/personalInfo",
+			"style": {
+				"navigationBarTitleText": "个人信息"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#8F8F94",
+		"selectedColor": "#2329D6",
+		"backgroundColor": "#FFFFFF",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "主页",
+				"iconPath":"static/icon/index.png",
+				"selectedIconPath":"static/icon/index_active.png"
+			},
+			{
+				"pagePath": "pages/map/map",
+				"text": "地图",
+				"iconPath":"static/icon/gps.png",
+				"selectedIconPath":"static/icon/gps_active.png"
+			},
+			{
+				"pagePath": "pages/more/more",
+				"text": "更多",
+				"iconPath":"static/icon/more.png",
+				"selectedIconPath":"static/icon/more_active.png"
+			},
+			{
+				"pagePath": "pages/person/person",
+				"text": "个人中心",
+				"iconPath":"static/icon/personal.png",
+				"selectedIconPath":"static/icon/personal_active.png"
+			}
+		]
+	}
+}
